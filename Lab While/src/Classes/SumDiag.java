@@ -27,7 +27,7 @@ public class SumDiag {
 				sumgl += arr[i][j];
 				}
 			
-			if (j == arr.length-k) {				// ne uchteno && j != i 
+			if (j == arr.length-k) {				
 				sumpb += arr[i][j];
 				}
 			}
@@ -36,6 +36,6 @@ public class SumDiag {
 	System.out.println("summa glavnoi diagonali = " + sumgl);
 	System.out.println("summa pobochnoi diagonali = " + sumpb);
 	System.out.print(sumgl + " - " + sumpb + " = ");
-		return sumgl - sumpb;
+		return Math.abs(sumgl - sumpb);
 	}
 }
