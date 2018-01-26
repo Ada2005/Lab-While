@@ -35,7 +35,7 @@ public class SumDiag {
 		}
 	System.out.println("summa glavnoi diagonali = " + sumgl);
 	System.out.println("summa pobochnoi diagonali = " + sumpb);
-	System.out.print(sumgl + " - " + sumpb + " = ");
+	System.out.print("raznica = ");
 		return Math.abs(sumgl - sumpb);
 	}
 }
