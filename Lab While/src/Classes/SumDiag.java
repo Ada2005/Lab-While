@@ -5,7 +5,7 @@ import java.io.*;
 public class SumDiag {
 		
 	int diag (int n) {
-		int sumgl = 0, sumpb = 0, k = 1;
+		int sumgl = 0, sumpb = 0, k = 1, razn;
 		int[][] arr = new int[n][n];	// the array must be square
 		Random r = new Random();
 		for (int i = 0; i < arr.length; i++) {
@@ -27,15 +27,16 @@ public class SumDiag {
 				sumgl += arr[i][j];
 				}
 			
-			if (j == arr.length-k) {				// ne uchteno && j != i 
+			if (j == arr.length-k) {				
 				sumpb += arr[i][j];
 				}
 			}
 		k++;
 		}
+		
 	System.out.println("summa glavnoi diagonali = " + sumgl);
 	System.out.println("summa pobochnoi diagonali = " + sumpb);
-	System.out.print(sumgl + " - " + sumpb + " = ");
-		return sumgl - sumpb;
+	System.out.print("raznica = ");
+		return Math.abs(sumgl - sumpb);
 	}
 }

@@ -13,6 +13,8 @@ public class RaznicaSumDiag {
 		n = sc.nextInt();
 		
 		System.out.println(sd.diag(n));
+		
+		}
 				
 	}
-}
+
