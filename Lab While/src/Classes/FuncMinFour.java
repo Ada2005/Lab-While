@@ -8,7 +8,7 @@ public class FuncMinFour {
 		int a, b, c, d;
 		
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter 4 numbers: ");	//entering numbers through the console
+		System.out.println("Enter 4 numbers: ");
 		a = sc.nextInt();
 		b = sc.nextInt();
 		c = sc.nextInt();

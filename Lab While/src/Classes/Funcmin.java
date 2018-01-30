@@ -2,13 +2,10 @@ package Classes;
 
 public class Funcmin {
 		
-	//simple version
-	
-/*	static int minimum (int a, int b, int c, int d) {           
+/*	static int minimum (int a, int b, int c, int d) {           //simple version
 		return Math.min(Math.min(a, b), Math.min(c, d));
 	}
 */	
-	
 	static int minimum (int a, int b, int c, int d) {
 		int min1, min2, min;
 		if (a <= b) {
