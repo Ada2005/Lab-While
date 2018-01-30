@@ -9,7 +9,7 @@ public class RaznicaSumDiag {
 		SumDiag sd = new SumDiag();
 				
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter the size of the array: " + " ");
+		System.out.println("Enter the size of the array: ");
 		n = sc.nextInt();
 		
 		System.out.println(sd.diag(n));
