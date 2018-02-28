@@ -20,7 +20,7 @@ public class Task16 {
 		num = sc.nextInt();
 		
 		while (num > 0) {
-			sum += (num % 10);
+			sum += num % 10;
 			num /= 10;
 		}
 	
